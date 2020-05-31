@@ -1,0 +1,107 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+div, p, a, img, form, button {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.nav {
+    margin-top: 42px;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    margin-left: 160px;
+}
+
+.menu li {
+    margin-right: 25px;
+    font-size: 12px;
+}
+
+.menu li a {
+    color: white;
+    padding: 12px 0 ;
+}
+
+.menu a:hover {
+    color: #6bff3d;
+    border-top: 1px solid #6bff3d;
+    border-bottom: 1px solid #6bff3d;
+}
+
+.phone {
+    font-size: 12px;
+    margin-left: auto;
+}
+
+.offer {
+    margin-top: 105px;
+    display: flex;
+    align-items: center;
+}
+
+.offer-content h1 {
+    font-size: 37px;
+    font-weight: 900;
+}
+
+.offer-content p {
+    margin-top: 19px;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.offer-content a {
+    margin-top: 35px;
+    background: #faf04b;
+    color: black;
+    font-weight: 900;
+    font-size: 14px;
+    width: 218px;
+    padding: 17px 0;
+    display: block;
+    text-align: center;
+    transition: al 0.5s ease;
+}
+
+.offer-content a:hover {
+    background: #edc455;
+}
+
+.triangles {
+    background: url(../img/poly.png);
+    width: 380px;
+    height: 379px;
+    margin-left: auto;
+    margin-right: 80px;
+}
